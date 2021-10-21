@@ -1,4 +1,14 @@
+
+
 html,
 body {
+  box-sizing: border-box;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f7da;
+}
+
+.textcss {
+  line-height: 27px;
+  
 }
