@@ -4,6 +4,7 @@ body {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
   background-color: #f0f7da;
+  text-align: center;
 }
 
 .textcss {
@@ -12,4 +13,54 @@ body {
 
 .fullscreenSection {
   height: 100vh;
+}
+.darkestGreenbg {
+  background-color: #234d20;
+}
+.darkGreenbg {
+  background-color: #36802d;
+}
+.normalGreenbg {
+  background-color: #77ab59;
+}
+.lightGreenbg {
+  background-color: #c9df8a;
+}
+.lighestGreenbg {
+  background-color: #f0f7da;
+}
+
+div {
+  font-size: medium;
+}
+
+.font-size-md {
+  font-size: large;
+}
+
+.form-size {
+  width: 100%;
+}
+
+.btn-custom {
+  width: 50%;
+}
+
+.displayNoneOnSmallScreen {
+  display: block;
+}
+
+@media only screen and (max-width: 690px) {
+  .displayNoneOnSmallScreen {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  div {
+    font-size: 3vw;
+  }
+  .font-size-md {
+    font-size: 3vw;
+  }
 }
